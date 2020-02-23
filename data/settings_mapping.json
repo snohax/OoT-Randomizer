@@ -410,6 +410,7 @@
           "name": "generalsfx_section",
           "text": "General",
           "is_sfx": true,
+          "col_span": 2,
           "row_span": [6,6,13],
           "settings": [
             "background_music",
@@ -440,6 +441,16 @@
           "settings": [
             "sfx_navi_overworld",
             "sfx_navi_enemy"
+          ]
+        },
+        {
+          "name": "excludeseq_section",
+          "text": "Exclude Music Sequences",
+          "is_sfx": true,
+          "col_span": 4,
+          "row_span": 5,
+          "settings": [
+            "excluded_sequences"
           ]
         }
       ]
